@@ -1,0 +1,5 @@
+frutas = ("maçã", "banana", "laranja", "uva", "abacaxi")
+convertida_lista = list(frutas)
+convertida_lista.append("melancia")
+covertida_tupla = tuple(convertida_lista)
+print(covertida_tupla)  

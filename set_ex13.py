@@ -1,0 +1,6 @@
+conjunto = set()
+conjunto.add(1)
+conjunto.add(2)
+conjunto.add(3)
+conjunto.update([4,5,6])
+print(conjunto)
