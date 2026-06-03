@@ -1,0 +1,11 @@
+numeros = []
+acm = 0
+while True:
+    n = int(input("Digite um número (0 para sair): "))
+    if n == 0:
+        break
+    numeros.append(n)
+    
+    acm += n
+    print(acm)
+print("Soma total:", acm)
