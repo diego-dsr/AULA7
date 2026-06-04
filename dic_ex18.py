@@ -1,5 +1,5 @@
 contato = {}
-contato["nome"] = input("Digite o nome: ")
+contato["Nome"] = input("Digite o nome: ")
 contato["Telefone"] = input("Digite o telefone: ")
 contato["Email"] = input("Digite o email: ")
 print(contato)

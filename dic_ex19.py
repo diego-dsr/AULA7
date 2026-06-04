@@ -1,4 +1,8 @@
-estoque = {"maça": 10, "banana": 5, "laranja": 8}
+estoque = {
+    "maça": 10, 
+    "banana": 5, 
+    "laranja": 8
+}
 
 for fruta, quantidade in estoque.items():
     x= input("O que desja saber? ")

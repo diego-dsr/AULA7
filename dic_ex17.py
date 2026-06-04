@@ -1,8 +1,12 @@
-aluno = {"nome": "Jairo", "Idade": 56, "nota": 4.5}
-print(f'Nome: {aluno["nome"]}')
+aluno = {
+    "Nome": "Jairo",
+    "Idade": 56,
+    "Nota": 4.5
+}
+print(f'Nome: {aluno["Nome"]}')
 print(f'Idade: {aluno["Idade"]}')
-print(f'Nota: {aluno["nota"]}')
-if aluno["nota"] > 7:
+print(f'Nota: {aluno["Nota"]}')
+if aluno["Nota"] > 7:
     print("Aprovado")
 else:
     print("Reprovado")
