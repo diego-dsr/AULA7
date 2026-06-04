@@ -6,3 +6,4 @@ print(contato)
 x= input("O que desja alterar? ")
 contato[x] = input("Digite a nova informação: ")
 print(contato)
+
